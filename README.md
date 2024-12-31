@@ -12,19 +12,19 @@ All commands are executed from inside `dogefuzz-results` directory.
 $ curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-2. change directory to the dogefuzz-results module:
+2. change the directory to the dogefuzz-results module:
 
 ```
 $ cd dogefuzz-results
 ```
 
-3. from inside dogefuzz-results directory, install all dependdencies using poetry:
+3. from inside dogefuzz-results directory, install all dependencies using poetry:
 
 ```
 $ poetry install
 ```
 
-4. run the report generator for each campaign, execute the following commands:
+4. run the report generator for each campaign and execute the following commands:
 
 ```
 $ cd dogefuzz-results

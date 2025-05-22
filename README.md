@@ -148,8 +148,11 @@ $ poetry run aggregator generate_report_not_labeled sbes_bench500 smartian.bench
 $ poetry run aggregator plot_max_coverage_boxplot sbes_bench500 smartian.bench500.zip
 ```
 
+## How do I cite this work?
 
+If you plan to refer to this work, please consider citing our paper the following BibTeX entry. Thank you!
 
+```bibtex
 @misc{medeiros2024dogefuzzsimpleefficientgreybox,
       title={DogeFuzz: A Simple Yet Efficient Grey-box Fuzzer for Ethereum Smart Contracts}, 
       author={Ismael Medeiros and Fausto Carvalho and Alexandre Ferreira and Rodrigo Bonifácio and Fabiano Cavalcanti Fernandes},
@@ -159,3 +162,4 @@ $ poetry run aggregator plot_max_coverage_boxplot sbes_bench500 smartian.bench50
       primaryClass={cs.CR},
       url={https://arxiv.org/abs/2409.01788}, 
 }
+```

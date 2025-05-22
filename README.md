@@ -4,6 +4,7 @@ This repository contains artifacts for the experiments in the paper DogeFuzz: A 
 
 All commands are executed from inside `dogefuzz-results` directory.
 
+
 ## Processing the 5-runs campaign data of Dogefuzz:
 
 1. install Poetry:
@@ -146,3 +147,15 @@ $ poetry run aggregator generate_report_not_labeled sbes_bench500 smartian.bench
 
 $ poetry run aggregator plot_max_coverage_boxplot sbes_bench500 smartian.bench500.zip
 ```
+
+
+
+@misc{medeiros2024dogefuzzsimpleefficientgreybox,
+      title={DogeFuzz: A Simple Yet Efficient Grey-box Fuzzer for Ethereum Smart Contracts}, 
+      author={Ismael Medeiros and Fausto Carvalho and Alexandre Ferreira and Rodrigo Bonifácio and Fabiano Cavalcanti Fernandes},
+      year={2024},
+      eprint={2409.01788},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2409.01788}, 
+}
